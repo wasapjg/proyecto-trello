@@ -1,0 +1,21 @@
+# Ignorar carpetas de backend y frontend (ya tienen su propio .gitignore)
+/backend/
+/frontend/
+
+# Archivos de Docker
+**/target/
+!**/src/main/**/target/
+
+# Archivos de entorno (no subir credenciales)
+.env
+*.env
+
+# Archivos de logs
+*.log
+logs/
+
+# Archivos temporales
+*.tmp
+*.bak
+*.swp
+*~
